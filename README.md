@@ -7,7 +7,7 @@ Provided you already have NumPy, Matplotlib, and Pandas already installed, the `
 
 <pre>$ pip install bokeh</pre>
 
-## What is Boke ?
+## What is Bokeh library ?
 Bokeh is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics and affords high-performance interactivity across large or streaming datasets. Bokeh can help anyone who wants to create interactive plots, dashboards, and data applications quickly and easily.
 
 For more information, you can check the following site: 
