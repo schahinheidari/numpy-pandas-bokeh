@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+<style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.0.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="88a0d898-4798-4537-b261-ec704fa8f99e" data-root-id="p1004" style="display: contents;"></div>
+  
+    <script type="application/json" id="p1247">
+      {"cd06402c-891e-486e-9d9e-dc675d75e8a8":{"version":"3.0.3","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Figure","id":"p1004","attributes":{"x_range":{"type":"object","name":"FactorRange","id":"p1013","attributes":{"factors":["AUSTRALIA","GREAT BRITAIN","NEW ZEALAND","SOUTH AFRICA","USA"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1006"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1017"},"y_scale":{"type":"object","name":"LinearScale","id":"p1019"},"title":{"type":"object","name":"Title","id":"p1010"},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1056","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1001","attributes":{"selected":{"type":"object","name":"Selection","id":"p1003","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1002"},"data":{"type":"map","entries":[["COUNTRY_FLYING_MISSION",{"type":"ndarray","array":["AUSTRALIA","GREAT BRITAIN","NEW ZEALAND","SOUTH AFRICA","USA"],"shape":[5],"dtype":"object","order":"little"}],["TOTAL_TONS",{"type":"ndarray","array":{"type":"bytes","data":"CtejcD3+fUAzMzPzFvowQYXrUbgeiqRA4XoUrkdhJ0DhehSuj804QQ=="},"shape":[5],"dtype":"float64","order":"little"}],["TONS_FRAG",{"type":"ndarray","array":{"type":"bytes","data":"pHA9CtejMkAAAAAAAOCSQAAAAAAAAAAAAAAAAAAAAADhehSufyr/QA=="},"shape":[5],"dtype":"float64","order":"little"}],["TONS_IC",{"type":"ndarray","array":{"type":"bytes","data":"MzMzMzMzK0AGgZVDYYQJQQAAAAAA0GRAAAAAAAAAAACamZmZQQ8JQQ=="},"shape":[5],"dtype":"float64","order":"little"}],["TONS_HE",{"type":"ndarray","array":{"type":"bytes","data":"ZmZmZmZefEBcj8J1an8qQTMzMzOzp7BAAAAAAAAALkBmZmamI84zQQ=="},"shape":[5],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1057","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1058"}}},"glyph":{"type":"object","name":"VBar","id":"p1053","attributes":{"x":{"type":"field","field":"COUNTRY_FLYING_MISSION"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"TOTAL_TONS"},"line_color":{"type":"field","field":"COUNTRY_FLYING_MISSION","transform":{"type":"object","name":"CategoricalColorMapper","id":"p1049","attributes":{"palette":["#2b83ba","#abdda4","#ffffbf","#fdae61","#d7191c"],"factors":["AUSTRALIA","GREAT BRITAIN","NEW ZEALAND","SOUTH AFRICA","USA"]}}},"fill_color":{"type":"field","field":"COUNTRY_FLYING_MISSION","transform":{"id":"p1049"}},"hatch_color":{"type":"field","field":"COUNTRY_FLYING_MISSION","transform":{"id":"p1049"}}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1054","attributes":{"x":{"type":"field","field":"COUNTRY_FLYING_MISSION"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"TOTAL_TONS"},"line_color":{"type":"field","field":"COUNTRY_FLYING_MISSION","transform":{"id":"p1049"}},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"COUNTRY_FLYING_MISSION","transform":{"id":"p1049"}},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"field","field":"COUNTRY_FLYING_MISSION","transform":{"id":"p1049"}},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1055","attributes":{"x":{"type":"field","field":"COUNTRY_FLYING_MISSION"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"TOTAL_TONS"},"line_color":{"type":"field","field":"COUNTRY_FLYING_MISSION","transform":{"id":"p1049"}},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"COUNTRY_FLYING_MISSION","transform":{"id":"p1049"}},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"field","field":"COUNTRY_FLYING_MISSION","transform":{"id":"p1049"}},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1009","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1034"},{"type":"object","name":"WheelZoomTool","id":"p1035"},{"type":"object","name":"BoxZoomTool","id":"p1036","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1037","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1038"},{"type":"object","name":"ResetTool","id":"p1039"},{"type":"object","name":"HelpTool","id":"p1040"},{"type":"object","name":"HoverTool","id":"p1059","attributes":{"renderers":"auto","tooltips":[["sum of explosives"," Aggregate strong segregation explosives @TONS_HE and Accumulation of incendiary substances @TONS_IC nad Number of pieces exploded @TONS_FRAG"]],"mode":"vline"}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1027","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1030","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1029"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1028"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1021","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1024"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1023"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1022"}}}],"center":[{"type":"object","name":"Grid","id":"p1026","attributes":{"axis":{"id":"p1021"}}},{"type":"object","name":"Grid","id":"p1033","attributes":{"dimension":1,"axis":{"id":"p1027"}}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p1247').textContent;
+              const render_items = [{"docid":"cd06402c-891e-486e-9d9e-dc675d75e8a8","roots":{"p1004":"88a0d898-4798-4537-b261-ec704fa8f99e"},"root_ids":["p1004"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
