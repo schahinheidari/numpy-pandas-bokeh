@@ -12,3 +12,12 @@ Bokeh is an interactive visualization library for modern web browsers. It provid
 
 For more information, you can check the following site: 
 [Bokeh Documentation](https://docs.bokeh.org/en/latest/docs/first_steps/installation.html)
+
+## Executing
+### Run
+In the bokeh_server folder, we created a server using the bokeh library that runs as follows
+```shell
+cd <bokeh_server>
+bokeh serve --show main.py
+```
+
