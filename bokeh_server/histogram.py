@@ -1,13 +1,11 @@
-from bokeh.palettes import Category20_16 # category of colors
-from bokeh.models.widgets import CheckboxGroup, CheckboxButtonGroup
 import pandas as pd
 import numpy as np
-from bokeh.models import ColumnDataSource
+from bokeh.palettes import Category20_16 # category of colors
+from bokeh.models.widgets import CheckboxGroup, CheckboxButtonGroup, Slider, RangeSlider
+from bokeh.models import ColumnDataSource, Column, TabPanel
 from bokeh.plotting import figure
-from bokeh.models.widgets import Slider, RangeSlider
 from bokeh.layouts import column, row
-from bokeh.models import Column
-from bokeh.models import TabPanel
+
 
 def histTab(data):
 
