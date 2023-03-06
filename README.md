@@ -31,13 +31,22 @@ In this part, using the `flight.py` and `histogram.py` files that flight is main
 <img src="img/2.png" alt="first image with histogram panel" style="max-width: 500px;">
 
 #### Output 2:
-<img src="img/3.png" alt="grayscale image" style="max-width: 500px;">
+<img src="img/3.png" alt="second image with histogram panel" style="max-width: 500px;">
 
 In this part, using the `flight.py` and `histogram.py` and `table.py` files that flight is main function, we were able to use the histTab function of the Histogram Panel to change any of the items we needed and also we add second table that we can see all of information we needed.
 
 For more information about datatable, you can check the following site: 
 [Data Table Documentation](https://docs.bokeh.org/en/latest/docs/reference/models/widgets.tables.html#bokeh.models.widgets.tables.DataTable)
-#### Output:
-<img src="img/s5.png" alt="grayscale image" style="max-width: 500px;">
+#### Output 3:
+<img src="img/s5.png" alt="datatable image" style="max-width: 500px;">
 
 
+In this part, using the `route.py` file that flights.py is main function, In this function, we can display the delay of airlines between two routes
+
+For more information about source code formatters, you can check the following site: 
+[Source code for bokeh.models.formatters](https://docs.bokeh.org/en/0.12.4/_modules/bokeh/models/formatters.html)
+
+For more information about formatters, you can check the following site: 
+[formatters Documentation](https://docs.bokeh.org/en/2.4.1/docs/reference/models/formatters.html)
+#### Output 4:
+<img src="img/6.png" alt="Point histogram image" style="max-width: 500px;">
